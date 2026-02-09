@@ -1,0 +1,477 @@
+.navbar {
+    background-color: white;
+
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 10px;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  width: 50px;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+  outline: none;
+  background: transparent;
+box-shadow: none;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #d9615b;
+}
+
+
+.navbar .navbar-brand {
+    color: #d9615b;
+    font-family: "Lobster", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    padding-left: 60px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #b54741;
+}
+
+.navbar-collapse {
+    color: rgb(68, 68, 68);
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.navbar .navbar-right .nav-link:hover {
+    color: #d9615b;
+}
+
+.navbar ul {
+    padding-right: 60px;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1.5s ease forwards;
+}
+
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section h1 {
+    color: #d9615b;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 5px #fec6c3;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+section p {
+    color: grey;
+    font-size: 15px;
+}
+
+section {
+    padding: 50px;
+}
+
+
+.profile-border {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(135deg, rgb(190, 240, 244), #ffffff);
+}
+
+.profile-border img {
+    border-radius: 50%;
+    width:260px;
+    height:260px;
+    transition: 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.profile-border img:hover {
+    transform: scale(1.1);
+}
+
+section h2 {
+    text-align: center;
+    color: rgb(83, 81, 81);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 30px;
+}
+
+
+section .row {
+    padding: 20px;
+}
+
+
+.skill-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 220px;
+    width: 220px;
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-inner {
+    transition: 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.skill-card:hover .skill-inner {
+    transform: scale(1.1);
+}
+
+.skill-card img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto 12px;
+}
+
+.skill-card h4 {
+    padding-top: 30px;
+}
+
+.skill-grid {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.project-grid {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-card {
+    background-color: rgb(235, 252, 252);
+    padding: 20px;
+    border-radius: 10px;
+    height: 550px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    height: 150px;
+    width: 100%;
+}
+
+.project-card span {
+    background-color: #d9615b;
+    border-radius: 50px;
+    border-color: #ffffff;
+    border-width: 2px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.project-card .btn {
+    margin-top: auto;
+    background-color: rgb(56, 155, 155);
+    border-color: rgb(56, 155, 155);
+}
+
+.project-card .btn:hover {
+    background-color: rgb(37, 94, 94);
+}
+
+.tags {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+section h3 {
+    font-family: "Lexand Deca", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.contact-card h3 {
+    font-family: "Lexand Deca", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+label {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+}
+
+input {
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    border-color: rgba(245, 245, 245, 0.76);
+    border-style: double;
+    border-width: 2px;
+    height: 48px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    border-color: rgba(245, 245, 245, 0.851);
+    border-style: double;
+    border-width: 2px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #d9615b;
+    border-color: #d9615b;
+    border-style: double;
+    color: #ffffff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    box-shadow: 0 2px 6px #d8817c;
+}
+
+button:hover {
+    background-color: #b54741;
+    border-color: #b54741;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-card a {
+    color: #d9615b;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 12px 0;
+    display: inline-block;
+}
+
+.contact-card a:hover {
+    color: #b54741;
+}
+
+.footer-content {
+    padding: 40px 0;
+
+}
+
+.footer-logo {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.footer-links {
+    padding: 0;
+    text-align: center;
+}
+
+.footer-links h4 {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.footer-links ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-links ul li a {
+    color: #d9615b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #8e3631;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.footer-contact {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-contact i {
+    color: #d9615b;
+    font-size: 34px;
+    display: inline-block;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.footer-contact a:hover i {
+    color: #b54741;
+    /* hover color */
+    transform: translateY(-4px);
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+
+
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #home .row {
+        text-align: center;
+    }
+
+    #home img {
+        align-items: center;
+        margin: 0 auto 20px;
+    }
+}
+
+@media (max-width: 768px) {
+  #home .col-md-5 {
+    text-align: center;
+  }
+
+  .profile-border {
+    margin: 0 auto 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+    .skill-card {
+        margin: 0 auto 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        margin: 0 auto 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container, .contact-wrapper form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-links ul {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-brand {
+    padding-left: 0px;
+  }
+}
